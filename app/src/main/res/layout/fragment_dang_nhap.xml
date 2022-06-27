@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/dangnhap"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ed_so_dien_thoai1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/ed_mat_khau"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/sodienthoai"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/ed_mat_khau"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/btdangnhap"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/matkhau"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:maxLength="25"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/btdangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/dangnhap"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btquenmatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btdangnhap"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1E82B1"
+        android:background="@color/backgroud1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/quenmatkhau"
+        android:textAllCaps="false" />
+
+
+
+
+
+</RelativeLayout>

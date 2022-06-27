@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bthome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_den">
+    </item>
+    <item android:id="@+id/bttinnhan"
+        android:title="@string/khampha"
+        android:icon="@drawable/ic_la_ban">
+    </item>
+    <item android:id="@+id/btlive"
+        android:title="@string/live"
+        android:icon="@drawable/ic_live">
+    </item>
+    <item android:id="@+id/btthongbao"
+        android:title="@string/thongbao"
+        android:icon="@drawable/ic_thong_bao">
+    </item>
+    <item android:id="@+id/bttaikhoan"
+        android:title="@string/taikhoan"
+        android:icon="@drawable/ic_nguoi">
+    </item>
+</menu>

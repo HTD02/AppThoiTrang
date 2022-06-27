@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_live"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/card_avt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="160dp"
+            app:cardCornerRadius="20dp">
+            <ImageView
+                android:id="@+id/img_avt_live"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/tv_ten_live"
+            android:layout_toRightOf="@id/card_avt"
+            android:text="@string/ten"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:id="@+id/tv_tieu_de_live"
+            android:layout_marginRight="3dp"
+            android:layout_toRightOf="@id/card_avt"
+            android:text="@string/ten"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</FrameLayout>
